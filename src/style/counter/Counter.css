@@ -1,0 +1,29 @@
+.counterItems {
+  margin-bottom: 50px;
+}
+
+.counterTest {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.counterContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+}
+
+.counterContainer button {
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  font-weight: 900;
+  background-color: rgb(66, 66, 133);
+  border-radius: 5px;
+}
+
+.counterContainer p {
+  font-size: 35px;
+  font-weight: 900;
+}
