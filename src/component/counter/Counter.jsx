@@ -4,14 +4,14 @@ import { useState } from "react";
 function Counter() {
   const [counter, setCounter] = useState(0);
 
-  function handleButtonPlus() {
+  const handleButtonPlus = () => {
     setCounter(counter + 1);
-  }
+  };
 
-  function handleButtoтMinus() {
+  const handleButtoтMinus = () => {
     if (counter < 1) return;
     setCounter(counter - 1);
-  }
+  };
 
   return (
     <div className="counterItems">
