@@ -1,0 +1,22 @@
+.listItems {
+  list-style: none;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background-color: #232323;
+  width: 500px;
+  padding: 10px;
+  display: flex;
+}
+
+.textContent {
+  text-align: start;
+  width: 80%;
+  word-wrap: break-word;
+}
+
+.listItems button {
+  padding: 8px 15px;
+  border: 2px solid #fff;
+  background-color: rgb(100, 26, 26);
+  margin: auto 0px 0px auto;
+}

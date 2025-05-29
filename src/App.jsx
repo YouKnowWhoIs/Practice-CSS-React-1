@@ -1,7 +1,8 @@
 import "./style/App.css";
 import UserList from "./component/userList/UserList.jsx";
 import Counter from "./component/counter/Counter.jsx";
-import MyForm from "./component/myForm/myForm.jsx";
+import MyForm from "./component/myForm/MyForm.jsx";
+import ToDo from "./component/toDo/ToDo.jsx";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <UserList />
       <Counter />
       <MyForm />
+      <ToDo />
     </>
   );
 }
