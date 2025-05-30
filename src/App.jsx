@@ -3,6 +3,7 @@ import UserList from "./component/userList/UserList.jsx";
 import Counter from "./component/counter/Counter.jsx";
 import MyForm from "./component/myForm/MyForm.jsx";
 import ToDo from "./component/toDo/ToDo.jsx";
+import DetailsToggle from "./component/detailsToggle/DetailsToggle.jsx";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Counter />
       <MyForm />
       <ToDo />
+      <DetailsToggle />
     </>
   );
 }

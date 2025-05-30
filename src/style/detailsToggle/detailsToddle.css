@@ -1,0 +1,14 @@
+.conteinerDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.conteinerDetails button {
+  padding: 8px 10px;
+  background-color: rgb(66, 66, 133);
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
