@@ -4,6 +4,7 @@ import Counter from "./component/counter/Counter.jsx";
 import MyForm from "./component/myForm/MyForm.jsx";
 import ToDo from "./component/toDo/ToDo.jsx";
 import DetailsToggle from "./component/detailsToggle/DetailsToggle.jsx";
+import WindowSize from "./component/windowSize/WindowSize.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <MyForm />
       <ToDo />
       <DetailsToggle />
+      <WindowSize />
     </>
   );
 }
