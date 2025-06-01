@@ -1,0 +1,13 @@
+.resultConteiner {
+  margin-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.resultText {
+  width: 500px;
+  word-wrap: break-word;
+  font-size: large;
+}

@@ -5,6 +5,7 @@ import MyForm from "./component/myForm/MyForm.jsx";
 import ToDo from "./component/toDo/ToDo.jsx";
 import DetailsToggle from "./component/detailsToggle/DetailsToggle.jsx";
 import WindowSize from "./component/windowSize/WindowSize.jsx";
+import InputResult from "./component/inputResult/InputResult.jsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <ToDo />
       <DetailsToggle />
       <WindowSize />
+      <InputResult />
     </>
   );
 }
