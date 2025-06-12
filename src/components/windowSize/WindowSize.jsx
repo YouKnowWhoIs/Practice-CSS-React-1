@@ -1,4 +1,4 @@
-import "../../style/windowSize/WindowSize.css";
+import "../../style/windowSize/windowSize.css";
 import { useEffect, useState } from "react";
 
 function WindowSize() {
