@@ -1,6 +1,6 @@
 import "../../style/toDo/toDo.css";
 import { useState } from "react";
-import ErrorText from "../errorText/ErrorText";
+import ErrorText from "../errorText/ErrorText.jsx";
 import List from "./List.jsx";
 
 function ToDo() {

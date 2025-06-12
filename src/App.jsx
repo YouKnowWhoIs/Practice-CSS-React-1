@@ -1,11 +1,11 @@
 import "./style/App.css";
-import UserList from "./component/userList/UserList.jsx";
-import Counter from "./component/counter/Counter.jsx";
-import MyForm from "./component/myForm/MyForm.jsx";
-import ToDo from "./component/toDo/ToDo.jsx";
-import DetailsToggle from "./component/detailsToggle/DetailsToggle.jsx";
-import WindowSize from "./component/windowSize/WindowSize.jsx";
-import InputResult from "./component/inputResult/InputResult.jsx";
+import UserList from "./components/userList/UserList.jsx";
+import Counter from "./components/counter/Counter.jsx";
+import MyForm from "./components/myForm/MyForm.jsx";
+import ToDo from "./components/toDo/ToDo.jsx";
+import DetailsToggle from "./components/detailsToggle/DetailsToggle.jsx";
+import WindowSize from "./components/windowSize/WindowSize.jsx";
+import InputResult from "./components/inputResult/InputResult.jsx";
 
 function App() {
   return (
